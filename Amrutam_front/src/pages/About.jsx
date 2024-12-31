@@ -1,4 +1,8 @@
 import React from 'react';
+import teamImage1 from "../assets/1.jpg";
+import teamImage2 from "../assets/2.jpg";
+import teamImage3 from "../assets/3.jpg";
+
 
 const AboutPage = () => {
   return (
@@ -21,17 +25,17 @@ const AboutPage = () => {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
           <div className="text-center">
             <img 
-              src="https://via.placeholder.com/150" 
+              src={teamImage1} 
               alt="Team Member" 
               className="w-32 h-32 rounded-full mx-auto mb-4" 
             />
-            <h3 className="text-xl font-semibold text-gray-800">John Doe</h3>
+            <h3 className="text-xl font-semibold text-gray-800">Jolie Doe</h3>
             <p className="text-gray-600">Founder & CEO</p>
           </div>
 
           <div className="text-center">
             <img 
-              src="https://via.placeholder.com/150" 
+              src={teamImage2}
               alt="Team Member" 
               className="w-32 h-32 rounded-full mx-auto mb-4" 
             />
@@ -41,7 +45,7 @@ const AboutPage = () => {
 
           <div className="text-center">
             <img 
-              src="https://via.placeholder.com/150" 
+              src={teamImage3}
               alt="Team Member" 
               className="w-32 h-32 rounded-full mx-auto mb-4" 
             />
