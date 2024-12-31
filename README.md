@@ -20,7 +20,7 @@ Clone the repository:
 
 bash
 Copy code
-git clone https://github.com/your-username/medicare.git
+git clone https://github.com/Amit1198911/Medicare.git
 Navigate to the project directory:
 
 bash
